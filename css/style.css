@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: "Montserrat", "Montserrat Fallback";
+    font-size: 14px;
+}
+
+
+/* Global Classes */
+.block {
+    display: block;
+}
+
+.Txt-Italic {
+    font-style: italic;
+}
+
+.mt {
+    margin-top: 30px;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.pd {
+    padding: 50px 0;
+}
+
+.primary-color {
+    color: #E04A00;
+}
+
+.Common-Btn-circle {
+    background-color: #E04A00;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* End of Global Classes */
+
+/* Header Start */
+.Top-Header {
+    background: linear-gradient(90deg, #024397, #e04a00);
+    color: #fff;
+    text-align: center;
+    padding: .40rem;
+}
+
+.Txt-Bold {
+    font-weight: 600;
+}
+
+.Header {
+    background-color: transparent;
+    position: fixed;
+    height: 70px;
+    top: 45px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.nav {
+    min-height: 40px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(2px);
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+
+.Logo {
+    background: #fff;
+    border-radius: 50px;
+    padding: 5px 15px;
+    line-height: 12px;
+}
+
+.Menu {
+    display: inline-flex;
+    justify-content: center;
+    flex-basis: 85%;
+    transition: all 0.3s ease 0s;
+    position: relative;
+
+}
+
+.Menu ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* Header End */
+
+/* Banner Start */
+.Main-Banner {
+    background-image: url(../images/indiflybg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 290px;
+    padding-bottom: 240px;
+    background-color: #2a2a2a;
+}
+
+.Main-Banner h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.Main-Banner h2 span {
+    color: #E04A00;
+}
+
+/* Banner End */
+
+/* Our Venture section */
+.Venture {
+    margin: 0 auto;
+    background-color: #07172c;
+    display: flex;
+}
+
+.Our-Ventures {
+    background-color: #f3e5de;
+    height: 286px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Our-Ventures span {
+    color: #07172c;
+}
+
+.Our-Ventures h2 {
+    font-size: 30px;
+    color: #1970df;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.Our-Ventures p {
+    line-height: 28px;
+}
+
+.incore,
+.insights,
+.indifylife,
+.Getintouch {
+    background-color: #f56522;
+    color: #fff;
+    height: 100px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.indifylife {
+    background: linear-gradient(90deg, #ebf2fd, #bbd8fe);
+    color: #07172c;
+    font-size: 20px;
+}
+
+.indifylife span {
+    display: block;
+}
+
+.insights {
+    background-color: #3490ff;
+    font-style: italic;
+}
+
+.Getintouch {
+    background-color: #f9f3ef;
+    font-size: 20px;
+}
+
+.Getintouch h2 {
+    color: #000;
+}
+
+.Getintouch span {
+    display: block;
+    color: #E04A00;
+}
+
+.btn {
+    background-color: #024397;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+/* Our Mission section start */
+.Our-Mission {
+    background: linear-gradient(90deg, #01295c, #004499);
+    padding: 50px 0;
+    display: flex;
+}
+
+.Our-Mission p {
+    font-size: 25px;
+    color: #fff;
+}
+
+.Txt-Grd {
+    font-size: 50px;
+    color: #0000;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#f93, #eee, #138808);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Our Mission section end */
+
+
+/* Our Sector section start */
+.Our-Sector {
+    padding: 50px 0;
+}
+
+.Title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.Txt-Center {
+    text-align: center;
+}
+
+.Txt-Gray {
+    color: rgb(88, 88, 88);
+}
+
+.Sub-Title {
+    color: #e04a00;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.Sub-Title span {
+    color: #004499;
+}
+
+.tabs {
+    margin: 30px auto 10px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 98%;
+}
+
+.input {
+    position: absolute;
+    opacity: 0;
+}
+
+.label {
+    width: 100%;
+    padding: 10px 26px;
+    background: #f5f5f5;
+    cursor: pointer;
+    font-size: 16px;
+    color: #0a49ff;
+    transition: background 0.1s, color 0.1s;
+}
+
+.label:hover {
+    background: #d8d8d8;
+}
+
+.label:active {
+    background: #ccc;
+}
+
+.input:focus+.label {
+    z-index: 1;
+}
+
+.input:checked+.label {
+    background: #0a48ff;
+    color: #fff;
+}
+
+.Tab-Des {
+    width: 60%;
+    float: left;
+    padding: 10px;
+}
+
+.Tab-Des p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.Tab-Des h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 600px) {
+    .label {
+        width: fit-content;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        font-weight: 500;
+    }
+}
+
+.panel {
+    display: none;
+    padding: 20px 30px 30px;
+    border-radius: 10px;
+    background: linear-gradient(73.45deg, #FECCB2 0%, rgba(254, 204, 178, 0.75) 28%, rgba(254, 204, 178, 0.38) 48%, rgba(254, 204, 178, 0.15) 63%, #FFFFFF 78%, #FFFFFF 100%);
+}
+
+.panel img {
+    width: 38%;
+    float: left;
+
+}
+
+@media (min-width: 600px) {
+    .panel {
+        order: 99;
+    }
+
+}
+
+.input:checked+.label+.panel {
+    display: block;
+    width: 100%;
+    min-height: 230px;
+    margin: 0 auto;
+}
+
+.tabs ul {
+    text-align: left;
+    margin-left: 70px;
+}
+
+.tabs ul li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.tabs ul li a {
+    width: fit-content;
+    min-width: 30%;
+    display: inline-block;
+}
+
+.tab-btn {
+    background-color: #01295c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.bg-transparent {
+    background-color: transparent;
+    color: #07172c;
+    border: 1px solid #07172c;
+}
+
+.Primary-btn {
+    background-color: #E04A00;
+}
+
+/* Our sector End */
+
+/* Our Journey start*/
+.Our-Journey {
+    background-image: url("../images/Impactonbharat.png");
+    background-size: cover;
+    padding: 50px 0;
+}
+
+/* End of Our Journey */
+
+/* Number counter */
+
+.Our-Journey .count_box {
+    padding: 50px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(2px);
+}
+
+.Our-Journey .count_box h3 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.Our-Journey .count_box h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 10px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.Our-Journey .box_center {
+    background: linear-gradient(to bottom right, #002f4b, #dc4225);
+    background-position: center 0;
+    background-size: cover;
+}
+
+.Our-Journey .box_center h3,
+.Our-Journey .box_center h4 {
+    color: #fff;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.Our-Journey .box_hover:hover {
+    background: linear-gradient(to bottom right, #002f4b, #dc4225);
+    background-size: cover;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.Our-Journey .box_hover:hover h3,
+.box_hover:hover h4 {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .Our-Journey .col-md-4 {
+        margin-bottom: 15px;
+    }
+}
+
+/* End of Number Counter */
+
+/* Contact us section start */
+.Contact-Us {
+    background-color: #01295c;
+}
+
+.contact-box {
+    background-color: rgb(255 255 255 / 13%);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    padding: 30px 20px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+}
+
+.contact-txt h3 {
+    font-size: 30px;
+    color: #E04A00;
+}
+
+.contact-txt p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(255 104 30);
+    color: white;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Contact us section end */
+
+.footer {
+    color: #fff;
+    background-color: #01295c;
+}
+
+.footer ul li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.HideDvers {
+    display: none;
+}
+
+
+
+
+
+/* Animation */
+
+
+/* End of Animation */

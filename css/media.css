@@ -1,0 +1,143 @@
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-md-7 {
+        width: 65%;
+        float: left;
+    }
+
+    .col-md-5 {
+        width: 28%;
+        float: left;
+    }
+
+    .col-md-6 {
+        width: 38%;
+        float: left;
+    }
+
+    .col-md-2 {
+        width: 28%;
+        float: left;
+    }
+
+    .col-md-4 {
+        width: 48%;
+        float: left;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* Start of Menu Toggle  */
+    .Page-Content-right {
+        position: absolute;
+        top: 0px;
+        z-index: 100;
+        width: 90%;
+        height: fit-content;
+        background: #f8f9fa;
+        display: none;
+        animation: mymove 0.5s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-out;
+    }
+
+    .Page-Content-right .nav-pills .nav-link {
+        text-align: left;
+    }
+
+    .Popup-content h2 {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .HBtn-Container {
+        display: block;
+        width: 14%;
+        float: right;
+        text-align: right;
+        padding: 1px 5px 0 0;
+        line-height: 30px;
+    }
+
+    .HideDvers {
+        display: block;
+    }
+
+    .Page-Content-right ul li {
+        width: 50%;
+        line-height: 40px;
+    }
+
+    /* End of Menu Toggle */
+    .Header {
+        top: 0;
+        position: sticky;
+    }
+
+    .nav {
+        justify-content: space-between;
+        border: 0;
+        border-radius: 0;
+    }
+
+    .Our-Mission {
+        display: block;
+        padding: 50px 20px;
+    }
+
+    .Our-Mission p {
+        font-size: 18px;
+
+    }
+
+    .panel {
+        padding: 10px;
+    }
+
+    .tab-btn {
+        margin: 2px;
+    }
+
+    .Tab-Des {
+        width: 92%;
+    }
+
+    .panel img {
+        width: 100%;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .Our-Mission img {
+        width: 98%;
+    }
+
+    .pd {
+        padding: 50px 20px;
+    }
+}
