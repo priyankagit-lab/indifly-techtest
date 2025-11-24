@@ -190,7 +190,7 @@ body {
 
 .indifylife span {
     display: block;
-    color:blue;
+    color:#3490ff;
 }
 
 .insights {
@@ -571,3 +571,4 @@ input[type=submit]:hover {
 
 
 /* End of Animation */
+
