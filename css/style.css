@@ -128,6 +128,7 @@ body {
     font-size: 40px;
     text-align: center;
     color: #fff;
+    animation-delay: 0.5s;
 }
 
 .Main-Banner h2 span {
@@ -562,13 +563,20 @@ input[type=submit]:hover {
     display: none;
 }
 
-
-
-
-
 /* Animation */
 
-
+.animation{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 
 /* End of Animation */
+
 
