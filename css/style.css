@@ -151,7 +151,10 @@ body {
     border-radius: 10px;
     margin: 10px;
 }
-
+.Our-Ventures:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
 .Our-Ventures span {
     color: #07172c;
 }
@@ -578,5 +581,6 @@ input[type=submit]:hover {
 }
 
 /* End of Animation */
+
 
 
