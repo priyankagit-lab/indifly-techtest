@@ -153,7 +153,7 @@ body {
 }
 
 .Our-Ventures:hover, .incore:hover, .insights:hover, .indifylife:hover, .Getintouch:hover {
-  transform: scale(1.05);
+  transform: scale(1.15);
   box-shadow: 0 0 20px rgba(0,255,255,0.5);
 }
 
@@ -583,6 +583,7 @@ input[type=submit]:hover {
 }
 
 /* End of Animation */
+
 
 
 
