@@ -471,19 +471,12 @@ body {
 .Our-Journey .box_center h4 {
     color: #fff;
     transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -moz-transition: all 0.5s;
     transition: all 0.5s;
 }
 
 .Our-Journey .box_hover:hover {
     background: linear-gradient(to bottom right, #002f4b, #dc4225);
     background-size: cover;
-    transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
@@ -583,6 +576,7 @@ input[type=submit]:hover {
 }
 
 /* End of Animation */
+
 
 
 
