@@ -304,7 +304,6 @@ body {
     cursor: pointer;
     font-size: 16px;
     color: #0a49ff;
-    transition: background 0.1s, color 0.1s;
 }
 
 .label:hover {
@@ -569,6 +568,7 @@ input[type=submit]:hover {
 }
 
 /* End of Animation */
+
 
 
 
