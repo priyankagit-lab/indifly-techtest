@@ -97,7 +97,7 @@ body {
 .Menu {
     display: inline-flex;
     justify-content: center;
-    flex-basis: 85%;
+    width: 85%;
     transition: all 0.3s ease 0s;
     position: relative;
 
@@ -443,9 +443,6 @@ body {
     font-weight: 800;
     color: #fff;
     transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -moz-transition: all 0.5s;
     transition: all 0.5s;
 }
 
@@ -455,9 +452,6 @@ body {
     color: #fff;
     padding-top: 10px;
     transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -moz-transition: all 0.5s;
     transition: all 0.5s;
 }
 
@@ -576,6 +570,7 @@ input[type=submit]:hover {
 }
 
 /* End of Animation */
+
 
 
 
